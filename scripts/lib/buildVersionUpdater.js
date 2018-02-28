@@ -57,7 +57,7 @@ function increaseBuildVersion(cordovaContext) {
 function increaseBuildVersionForAndroid(cordovaContext, buildConfig) {
   var androidManifestFilePath = path.join(cordovaContext.opts.projectRoot, 'platforms', ANDROID_PLATFORM, 'CordovaLib\AndroidManifest.xml'),
     manifestFileContent = xmlHelper.readXmlAsJson(androidManifestFilePath);
-
+logger.error(androidManifestFilePath);
   if (!manifestFileContent) {
     logger.error('AndroidManifest.xml file is not found! Can\'t increase build version for android.');
     return;
