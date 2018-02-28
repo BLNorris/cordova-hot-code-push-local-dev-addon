@@ -5,13 +5,12 @@
   "cordova": {
     "id": "cordova-hot-code-push-local-dev-addon",
     "platforms": [
-      "ios",
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nordnet/cordova-hot-code-push-local-dev-addon.git"
+    "url": "git+https://github.com/blnorris/cordova-hot-code-push-local-dev-addon.git"
   },
   "keywords": [
     "cordova",
@@ -21,14 +20,9 @@
     "local",
     "development",
     "ecosystem:cordova",
-    "cordova-ios",
     "cordova-android"
   ],
   "engines": [
-    {
-      "name": "cordova-ios",
-      "version": ">=3.8"
-    },
     {
       "name": "cordova-android",
       "version": ">=4"
@@ -46,7 +40,7 @@
   "author": "Nikolay Demyankov for Nordnet Bank AB",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nordnet/cordova-hot-code-push-local-dev-addon/issues"
+    "url": "https://github.com/blnorris/cordova-hot-code-push-local-dev-addon/issues"
   },
-  "homepage": "https://github.com/nordnet/cordova-hot-code-push-local-dev-addon#readme"
+  "homepage": "https://github.com/blnorris/cordova-hot-code-push-local-dev-addon#readme"
 }
