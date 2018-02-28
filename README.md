@@ -1,6 +1,6 @@
 # Cordova Hot Code Push Local Development Add-on
 
-This plugin adds local development feature to the [Hot Code Push plugin](https://github.com/nordnet/cordova-hot-code-push). With it you can develop your app and see the result immediately on the device. No need to restart it on every change you make in your web files: all the updates are uploaded automatically.
+This plugin adds local development feature to the [Hot Code Push plugin](https://github.com/blnorris/cordova-hot-code-push). With it you can develop your app and see the result immediately on the device. No need to restart it on every change you make in your web files: all the updates are uploaded automatically.
 
 ## Supported platforms
 - Android 4.0.0 or above.
@@ -25,7 +25,7 @@ cordova plugin add cordova-hot-code-push-local-dev-addon
 
 It is also possible to install via repo url directly (__unstable__):
 ```sh
-cordova plugin add https://github.com/nordnet/cordova-hot-code-push-local-dev-addon.git
+cordova plugin add https://github.com/blnorris/cordova-hot-code-push-local-dev-addon.git
 ```
 
 Starting from `v0.4.0` this plugin **requires Xcode 8**. If you are using Xcode 7 - please, use `v0.3.0`:
@@ -33,7 +33,7 @@ Starting from `v0.4.0` this plugin **requires Xcode 8**. If you are using Xcode 
 cordova plugin add cordova-hot-code-push-local-dev-addon@0.3.0
 ```
 
-**Note:** you can install plugin to any project, but it is not gonna do anything without the [Hot Code Push plugin](https://github.com/nordnet/cordova-hot-code-push).
+**Note:** you can install plugin to any project, but it is not gonna do anything without the [Hot Code Push plugin](https://github.com/blnorris/cordova-hot-code-push).
 
 ### Quick start guide for Cordova project
 

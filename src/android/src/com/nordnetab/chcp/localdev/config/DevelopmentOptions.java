@@ -5,7 +5,7 @@ package com.nordnetab.chcp.localdev.config;
  * <p/>
  * Model for local development options.
  * By "local development" we mean, that you use
- * {@link https://github.com/nordnet/cordova-hot-code-push-cli} to start local server.
+ * {@link https://github.com/blnorris/cordova-hot-code-push-cli} to start local server.
  * If so - plugin will try to connect to it via socket and listen for updates in web content.
  * On every change plugin will trigger update download.
  * <p/>
