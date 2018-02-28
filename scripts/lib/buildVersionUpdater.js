@@ -55,7 +55,7 @@ function increaseBuildVersion(cordovaContext) {
  * @param {Object} cordovaContext - cordova's context
  */
 function increaseBuildVersionForAndroid(cordovaContext, buildConfig) {
-  var androidManifestFilePath = path.join(cordovaContext.opts.projectRoot, 'platforms', ANDROID_PLATFORM, 'AndroidManifest.xml'),
+  var androidManifestFilePath = path.join(cordovaContext.opts.projectRoot, 'platforms', ANDROID_PLATFORM, 'CordovaLib\AndroidManifest.xml'),
     manifestFileContent = xmlHelper.readXmlAsJson(androidManifestFilePath);
 
   if (!manifestFileContent) {
